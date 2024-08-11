@@ -1,5 +1,7 @@
 #include "exampleFunctionsGPIO.hpp"
 
+
+
 void initDiode(int pin){
     // Set the GPIO pin of diode as output
     GPIO.enable |= (1 << pin);
