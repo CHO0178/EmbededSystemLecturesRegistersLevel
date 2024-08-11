@@ -40,3 +40,7 @@ void initRGB(int R, int G, int B);
  * @param B pin for blue color
  */
 void setRGB(int R_pin, int G_pin, int B_pin, int R_val, int G_val, int B_val);
+
+void example00BlinkingRGBDiode();
+void example00DiodeWithButton();
+void example01DiodeWithButton();
