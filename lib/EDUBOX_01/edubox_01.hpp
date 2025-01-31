@@ -3,5 +3,7 @@
 
 void example01(){};
 void practice01(){};
+void practice02(){};
+void practice03(){};
 
 #endif
