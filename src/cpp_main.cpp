@@ -6,6 +6,9 @@
 #include <driver/uart.h>
 #include <string.h>
 
+#include "edubox_01.hpp"
+
+
 #define RGB_RED_PIN 25
 #define RGB_GREEN_PIN 26
 #define RGB_BLUE_PIN 27
@@ -38,6 +41,7 @@ void interruptHandler();
 void initSerialCom();
 
 void cpp_main(){
+
     initSerialCom();
     /*
     // CZ: vyberte typ přerušení a povolte jeho generování
