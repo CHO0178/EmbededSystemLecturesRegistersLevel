@@ -1,9 +1,9 @@
 #ifndef EDUBOX_01_HPP
 #define EDUBOX_01_HPP
 
-void example01(){};
-void practice01(){};
-void practice02(){};
-void practice03(){};
+void example01();
+void practice01();
+void practice02();
+void practice03();
 
 #endif
