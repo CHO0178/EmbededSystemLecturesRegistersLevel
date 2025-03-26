@@ -3,6 +3,6 @@
 
 
 void cpp_main(){
-    
+    example00BlinkingRGBDiode();
 }
 

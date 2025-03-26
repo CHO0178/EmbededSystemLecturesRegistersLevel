@@ -1,4 +1,4 @@
-#include "SerialCom.h"
+#include "SerialCom.hpp"
 #include <driver/uart.h>
 
 void SerialCom::init()

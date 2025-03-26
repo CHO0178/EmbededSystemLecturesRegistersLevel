@@ -49,6 +49,7 @@ void setRGB(int R_pin, int G_pin, int B_pin, int R_val, int G_val, int B_val){
 
 /**
  * @brief example of blinking RGB diode. Blinking only Red then Green then Blue but nothing else
+ * diode is connected to pins: RED - 25, GREEN - 26, BLUE - 27
  */
 void example00BlinkingRGBDiode(){
     initRGB(RGB_RED_PIN, RGB_GREEN_PIN, RGB_BLUE_PIN);
